@@ -37,7 +37,8 @@ CREATE TABLE `cliente` (
   `Telefone` varchar(15) NOT NULL,
   `Endereco` varchar(60) NOT NULL,
   `Cidade` varchar(40) NOT NULL,
-  `Estado` varchar(2) NOT NULL
+  `Estado` varchar(2) NOT NULL,
+  'Senha' Varchar (10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
