@@ -31,7 +31,7 @@ USE `bdlojavirtual`;
 
 DROP TABLE IF EXISTS `cliente`;
 CREATE TABLE `cliente` (
-  `CPF` varchar(11) NOT NULL,
+  `CPF` varchar(15) NOT NULL,
   `Email` varchar(50) NOT NULL,
   `Nome` varchar(50) NOT NULL,
   `Senha` varchar(15) NOT NULL,
